@@ -1,0 +1,391 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+color: #333;
+font-size: 17px;
+line-height: 1.47;
+font-weight: 400;
+letter-spacing: 0.22em;
+background: #333;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+  z-index: 20px;
+}
+
+ .bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1 a {
+  font-weight: bold;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+p a{
+  font-weight: 400;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.footnote{
+  color:#333;
+}
+
+.changed{
+  font-size: x-large;
+}
+
+.change {
+  color: blue;
+}
+
+#navbar{
+background-color: #fff;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+
+}
+
+
+
+#navbar ul{
+display: flex; 
+justify-content: space-between;
+width: 100%;
+height: 44px;
+}
+
+
+#navbar ul li{
+  margin-top: 10px;
+  list-style: none;
+  
+}
+
+#navbar ul li a{
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover{
+  color: black;
+  opacity: 0.2;
+}
+
+.container{
+  margin: auto;
+  max-width: 980px;
+  padding: 0 20px;
+}
+
+
+
+#section{
+  padding-top: 4.0em;
+  padding-bottom: 5.0em;
+  text-align: center;
+  background-color: #fafafa;
+  margin-top: 5px;
+  letter-spacing: -0.01em;
+height: 45vh;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#section1{
+  padding-top: 175px;
+  text-align: center;
+  background-color: #fafafa;
+  letter-spacing: -0.01em;
+}
+
+#section1{
+  background: url(./images/photo4.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  height:900px;
+}
+
+#section1 h1,#section2 h1,#section3 h1{
+  font-size: 40px;
+  line-height: 1.2em;
+  z-index: 20px;
+}
+
+#section1 h1 p,#seection2 h1 p,#section3 h1 p{
+  font-size: 40px;
+  padding-top: 20px;
+  z-index: 20px;
+}
+
+#section2,#section3{
+  padding-top: 175px;
+  text-align: center;
+  background-color: #fafafa; 
+  margin-top: 5px;
+  letter-spacing: -0.01em;
+}
+
+#section2{
+  background: url(./images/photo5.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  height:900px;
+}
+
+#section3{
+  background: url(./images/photo6.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  height:900px;
+}
+
+#section4{
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: -0.01em;
+}
+
+.divid1 h2{
+  padding-top: 200px;
+  font-size: 40px;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.divid2 h2{
+  padding-top: 200px;
+  font-size: 40px;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.divid {
+  flex: 1;
+}
+
+.divid1{
+  background: url(./images/photo10.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+}
+
+.divid2{
+  background: url(./images/photo9.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+
+}
+
+#section5{
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: -0.01em;
+}
+
+.next1 h2{
+  padding-top: 200px;
+  font-size: 40px;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.next2 h2{
+  padding-top: 200px;
+  font-size: 40px;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.next {
+  flex: 1;
+}
+
+.next1{
+  background: url(./images/photo13.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+  
+}
+
+.next2{
+  background: url(./images/photo12.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+
+}
+
+#section6{
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: -0.01em;
+}
+
+.last1 h2{
+  padding-top: 50px;
+  font-size: 40px;
+  color: rgb(11, 12, 9);
+  z-index: 20px;
+}
+
+.last2 h2{
+  padding-top: 50px;
+  font-size: 40px;
+  color: black;
+  z-index: 20px;
+}
+
+.last {
+  flex: 1;
+}
+
+.last1{
+  background: url(./images/photo11.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+}
+
+.last2{
+  background: url(./images/photo14.jpg) no-repeat center center/cover;
+  max-width: 100%;
+  margin: 5px;
+  height: 600px;
+  
+}
+
+footer {
+  color: #fff;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  justify-content: space-between;
+  grid-column-gap: 1px;
+  
+  
+}
+
+
+
+  ul h3 {
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+ ul li {
+list-style: none;
+line-height: 1.33341;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: -.01em; 
+padding: 4px;
+  
+  
+}
+
+footer p {
+  margin-top: 50px;
+  font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4{
+  margin-bottom:5px;
+  font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h5{
+  font-size: 12px;
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px; 
+}
+
+.btn-icon{
+  margin-left: 0.50rem;
+}
+
+@media (max-width: 700px) {
+body{
+  max-width: 960px;
+}
+#container{
+  grid-template-columns: repeat(3, 1fr);
+}
+footer{
+  margin-right:0;
+  float:none;
+}
+#section4,#section5,#section6{
+  flex-direction: column;
+  height: 600px;
+}
+.section{
+  padding: 35.35px;
+  line-height: 25px;
+  
+  }
+.change{
+  display: flex;
+  flex-direction: column;
+  line-height: 13px;
+}
+
+.divid h2{
+  padding-top: 100px;
+}
+.next h2{
+  padding-top: 100px;
+}
+.last h2{
+  padding-top: 100px;
+}
+#section3,#section2,#section1,#section{
+  
+  max-width: 100%;
+  height:90vh;
+}
+
+
+}
